@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#E0F7FA"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="SINAV TAMAMLANDI!"
+        android:textColor="@color/design_default_color_secondary_variant"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtPuan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:text="Puan: 0"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtDogruSonuc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Doğru: 0"
+        android:textSize="22sp"
+        android:textColor="#2E7D32"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/txtYanlisSonuc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Yanlış: 0"
+        android:textSize="22sp"
+        android:textColor="#C62828"
+        android:textStyle="bold"
+        android:layout_marginBottom="40dp"/>
+
+    <Button
+        android:id="@+id/btnTekrarDene"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="BU KATEGORİYİ TEKRAR ÇÖZ"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:backgroundTint="#0097A7"
+        android:layout_marginBottom="15dp"/>
+
+    <Button
+        android:id="@+id/btnKategorilereDon"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="KATEGORİLERE DÖN"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:backgroundTint="#546E7A"/>
+
+</LinearLayout>

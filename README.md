@@ -5,5 +5,4 @@ Bu proje, ehliyet sınavına hazırlanan sürücü adaylarının trafik levhalar
 Uygulama Hakkında:
 
 Uygulama, kullanıcıların farklı kategorilerde trafik levhalarını öğrenmelerini ve kendilerini test etmelerini sağlar. Basit ve kullanıcı dostu arayüzü ile sınav stresini azaltmayı ve öğrenmeyi 
-
 eğlenceli hale getirmeyi hedefler.
